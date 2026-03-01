@@ -46,15 +46,16 @@ const content = {
         githubLink: 'https://github.com/marabunta-labs/cdk-stackmap'
       },
       {
-        title: 'SQL diagram Generator',
-        desc: 'Extensión VS Code para generar diagramas SQL.',
-        status: 'building',
-        link: '#'
+        title: 'File Scout',
+        desc: 'Extensión VS Code para buscar archivos de manera inteligente.',
+        status: 'launched',
+        link: 'https://marketplace.visualstudio.com/items?itemName=Marabunta.file-scout&ssr=false#overview',
+        githubLink: 'https://github.com/marabunta-labs/file-scout'
       },
       {
         title: 'Movie to ASCII',
         desc: 'Convierte películas o videos en arte ASCII.',
-        status: 'locked',
+        status: 'building',
         link: '#'
       },
       { title: '???', desc: 'ChatBot IA', status: 'locked', link: '#' },
@@ -105,15 +106,16 @@ const content = {
         githubLink: 'https://github.com/marabunta-labs/cdk-stackmap'
       },
       {
-        title: 'SQL diagram Generator',
-        desc: 'VS Code extension to generate SQL diagrams.',
-        status: 'building',
-        link: '#'
+        title: 'File Scout',
+        desc: 'VS Code extension to intelligently search for files.',
+        status: 'launched',
+        link: 'https://marketplace.visualstudio.com/items?itemName=Marabunta.file-scout&ssr=false#overview',
+        githubLink: 'https://github.com/marabunta-labs/file-scout'
       },
       {
         title: 'Movie to ASCII',
         desc: 'Convert movies or videos to ASCII art.',
-        status: 'locked',
+        status: 'building',
         link: '#'
       },
       { title: '???', desc: 'AI ChatBot', status: 'locked', link: '#' },
