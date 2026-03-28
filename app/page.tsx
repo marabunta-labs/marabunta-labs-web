@@ -54,11 +54,12 @@ const content = {
       },
       {
         title: 'Movie to ASCII',
-        desc: 'Convierte películas o videos en arte ASCII.',
-        status: 'building',
-        link: '#'
+        desc: 'Convierte videos, GIFs e imágenes en arte ASCII.',
+        status: 'launched',
+        link: 'https://pypi.org/project/movie-ascii/',
+        githubLink: 'https://github.com/marabunta-labs/movie-ascii'
       },
-      { title: '???', desc: 'ChatBot IA', status: 'locked', link: '#' },
+      { title: '???', desc: 'ChatBot IA', status: 'building', link: '#' },
       { title: '???', desc: 'Recomendador IA', status: 'locked', link: '#' },
       { title: '???', desc: 'Generador de Música', status: 'locked', link: '#' },
       { title: '???', desc: 'Bot de Telegram', status: 'locked', link: '#' },
@@ -114,11 +115,12 @@ const content = {
       },
       {
         title: 'Movie to ASCII',
-        desc: 'Convert movies or videos to ASCII art.',
-        status: 'building',
-        link: '#'
+        desc: 'Convert videos, GIFs, and images to ASCII art.',
+        status: 'launched',
+        link: 'https://pypi.org/project/movie-ascii/',
+        githubLink: 'https://github.com/marabunta-labs/movie-ascii'
       },
-      { title: '???', desc: 'AI ChatBot', status: 'locked', link: '#' },
+      { title: '???', desc: 'AI ChatBot', status: 'building', link: '#' },
       { title: '???', desc: 'AI Recommender', status: 'locked', link: '#' },
       { title: '???', desc: 'Music Generator', status: 'locked', link: '#' },
       { title: '???', desc: 'Telegram Bot', status: 'locked', link: '#' },
