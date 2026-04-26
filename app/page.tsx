@@ -59,8 +59,14 @@ const content = {
         link: 'https://pypi.org/project/movie-ascii/',
         githubLink: 'https://github.com/marabunta-labs/movie-ascii'
       },
-      { title: '???', desc: 'ChatBot IA', status: 'building', link: '#' },
-      { title: '???', desc: 'Recomendador IA', status: 'locked', link: '#' },
+      { 
+        title: 'T&C Ninja', 
+        desc: 'ChatBot IA, tu asistente para entender términos y condiciones.', 
+        status: 'launched', 
+        link: 'https://tc-ninja.vercel.app/',
+        githubLink: 'https://github.com/marabunta-labs/tc-ninja'
+      },
+      { title: '???', desc: 'Recomendador IA', status: 'building', link: '#' },
       { title: '???', desc: 'Generador de Música', status: 'locked', link: '#' },
       { title: '???', desc: 'Bot de Telegram', status: 'locked', link: '#' },
       { title: '???', desc: 'Gestor de QR', status: 'locked', link: '#' },
@@ -120,8 +126,14 @@ const content = {
         link: 'https://pypi.org/project/movie-ascii/',
         githubLink: 'https://github.com/marabunta-labs/movie-ascii'
       },
-      { title: '???', desc: 'AI ChatBot', status: 'building', link: '#' },
-      { title: '???', desc: 'AI Recommender', status: 'locked', link: '#' },
+      { 
+        title: 'T&C Ninja',
+        desc: 'AI ChatBot to assist with terms and conditions.',
+        status: 'launched',
+        link: 'https://tc-ninja.vercel.app/',
+        githubLink: 'https://github.com/marabunta-labs/tc-ninja'
+      },
+      { title: '???', desc: 'AI Recommender', status: 'building', link: '#' },
       { title: '???', desc: 'Music Generator', status: 'locked', link: '#' },
       { title: '???', desc: 'Telegram Bot', status: 'locked', link: '#' },
       { title: '???', desc: 'QR Manager', status: 'locked', link: '#' },
