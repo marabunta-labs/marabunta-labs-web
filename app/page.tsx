@@ -66,8 +66,14 @@ const content = {
         link: 'https://tc-ninja.vercel.app/',
         githubLink: 'https://github.com/marabunta-labs/tc-ninja'
       },
-      { title: '???', desc: 'Recomendador IA', status: 'building', link: '#' },
-      { title: '???', desc: 'Generador de Música', status: 'locked', link: '#' },
+      { 
+        title: 'TeaserFlix',
+        desc: 'Plataforma de scrolling con trailers',
+        status: 'launched',
+        link: 'https://teaserflix.vercel.app/',
+        githubLink: 'https://github.com/marabunta-labs/teaserflix'
+      },
+      { title: '???', desc: 'Generador de Música', status: 'building', link: '#' },
       { title: '???', desc: 'Bot de Telegram', status: 'locked', link: '#' },
       { title: '???', desc: 'Gestor de QR', status: 'locked', link: '#' },
       { title: '???', desc: 'Herramienta de mensajería creativa', status: 'locked', link: '#' },
@@ -133,8 +139,14 @@ const content = {
         link: 'https://tc-ninja.vercel.app/',
         githubLink: 'https://github.com/marabunta-labs/tc-ninja'
       },
-      { title: '???', desc: 'AI Recommender', status: 'building', link: '#' },
-      { title: '???', desc: 'Music Generator', status: 'locked', link: '#' },
+      { 
+        title: 'TeaserFlix',
+        desc: 'Scrolling platform with trailers',
+        status: 'launched',
+        link: 'https://teaserflix.vercel.app/',
+        githubLink: 'https://github.com/marabunta-labs/teaserflix'
+      },
+      { title: '???', desc: 'Music Generator', status: 'building', link: '#' },
       { title: '???', desc: 'Telegram Bot', status: 'locked', link: '#' },
       { title: '???', desc: 'QR Manager', status: 'locked', link: '#' },
       { title: '???', desc: 'Creative messaging', status: 'locked', link: '#' },
