@@ -14,6 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://marabunta-labs.vercel.app"),
   title: "Marabunta Labs | 12 Projects. 12 Months",
   description: "Chaos, code, and constant construction. Join the challenge to launch a tech product every 30 days.",
   twitter: {
@@ -22,7 +23,6 @@ export const metadata: Metadata = {
     creator: "@parodin",
     title: "Marabunta Labs: The Challenge 2026",
     description: "12 Projects. 12 Months. No looking back.",
-    // images: ["https://marabunta-labs.vercel.app/og-image.png"],
   },
   openGraph: {
     type: "website",
@@ -30,9 +30,6 @@ export const metadata: Metadata = {
     title: "Marabunta Labs",
     description: "Chaos, code, and constant construction. Join the challenge to launch a tech product every 30 days.",
     siteName: "Marabunta Labs",
-    // images: [{
-    //   url: "https://marabunta-labs.vercel.app/og-image.png",
-    // }],
   },
   verification: {
     google: '9E9qC957fjoZRJkZ-oF2MVGW07hf21zbklJXKRMtToY',

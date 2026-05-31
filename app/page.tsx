@@ -3,7 +3,7 @@
 import { useState, useTransition } from 'react';
 import { motion, Variants } from 'framer-motion';
 import { Hammer, Lock, ExternalLink, Mail, Bug, Globe, ArrowDown, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
-import { FaXTwitter, FaGithub, FaLinkedin } from "react-icons/fa6";
+import { FaXTwitter, FaGithub } from "react-icons/fa6";
 import { SiKofi } from "react-icons/si";
 import { subscribeToKit } from './actions/subscribe';
 
@@ -182,7 +182,7 @@ export default function Home() {
     const socialLinks = [
       {
         href: 'https://x.com/marabunta_labs',
-        label: 'X',
+        label: 'X (Twitter)',
         icon: <FaXTwitter size={20} />,
         iconFooter: <FaXTwitter size={18} />,
       },
@@ -192,36 +192,30 @@ export default function Home() {
         icon: <FaGithub size={20} />,
         iconFooter: <FaGithub size={18} />,
       },
-      // {
-      //   href: 'https://linkedin.com/in/parodo',
-      //   label: 'LinkedIn',
-      //   icon: <FaLinkedin size={20} />,
-      //   iconFooter: <FaLinkedin size={18} />,
-      // },
     ];
   const [lang, setLang] = useState<'es' | 'en'>('en'); 
   const t = content[lang];
 
   const toggleLang = () => setLang(prev => prev === 'es' ? 'en' : 'es');
 
-  const [isPending, startTransition] = useTransition(); // Para el estado de carga
+  const [isPending, startTransition] = useTransition();
     const [formStatus, setFormStatus] = useState<{ type: 'success' | 'error' | null, message: string }>({ type: null, message: '' });
 
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         const formData = new FormData(e.currentTarget);
+        const form = e.currentTarget;
         
         startTransition(async () => {
             const result = await subscribeToKit(formData);
             
             if (result.success) {
                 setFormStatus({ type: 'success', message: result.message });
-                (e.target as HTMLFormElement).reset(); // Limpiar input
+                form.reset();
             } else {
                 setFormStatus({ type: 'error', message: result.message });
             }
             
-            // Opcional: Limpiar mensaje después de 3 segundos
             setTimeout(() => setFormStatus({ type: null, message: '' }), 5000);
         });
     };
@@ -238,6 +232,7 @@ export default function Home() {
               href={item.href}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={item.label}
               className="text-slate-500 hover:text-white transition-colors"
             >
               {item.icon}
@@ -246,6 +241,7 @@ export default function Home() {
         </div>
         <button 
           onClick={toggleLang}
+          aria-label={`Switch language to ${lang === 'en' ? 'Spanish' : 'English'}`}
           className="flex items-center gap-2 px-3 py-1.5 rounded-full bg-slate-900 border border-slate-700 hover:border-indigo-500 text-sm font-mono transition-all active:scale-95"
         >
           <Globe size={14} />
@@ -360,7 +356,7 @@ export default function Home() {
                 </form>
 
                 {/* MENSAJES DE FEEDBACK (Error o Éxito) */}
-                <div className="h-6 relative z-10"> 
+                <div className="h-6 relative z-10" aria-live="polite"> 
                     {formStatus.type === 'success' && (
                         <p className="text-emerald-400 text-sm font-medium flex items-center justify-center gap-2 animate-in fade-in slide-in-from-bottom-2">
                             <CheckCircle size={14} /> {formStatus.message}
