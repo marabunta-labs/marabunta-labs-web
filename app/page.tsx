@@ -73,9 +73,15 @@ const content = {
         link: 'https://teaserflix.vercel.app/',
         githubLink: 'https://github.com/marabunta-labs/teaserflix'
       },
-      { title: '???', desc: 'Generador de Música', status: 'building', link: '#' },
-      { title: '???', desc: 'Bot de Telegram', status: 'locked', link: '#' },
-      { title: '???', desc: 'Gestor de QR', status: 'locked', link: '#' },
+      { 
+        title: 'Safe QR Scanner', 
+        desc: 'Gestor de QR', 
+        status: 'launched', 
+        link: 'https://secure-qr-scanner.vercel.app/',
+        githubLink: 'https://github.com/marabunta-labs/safe-qr-scanner'
+      },
+      { title: '???', desc: 'Bot de Telegram', status: 'building', link: '#' },
+      { title: '???', desc: 'Generador de Música', status: 'locked', link: '#' },
       { title: '???', desc: 'Herramienta de mensajería creativa', status: 'locked', link: '#' },
       { title: '???', desc: 'Aplicación web de mapas', status: 'locked', link: '#' },
       { title: '???', desc: 'Juego Web', status: 'locked', link: '#' },
@@ -146,9 +152,15 @@ const content = {
         link: 'https://teaserflix.vercel.app/',
         githubLink: 'https://github.com/marabunta-labs/teaserflix'
       },
-      { title: '???', desc: 'Music Generator', status: 'building', link: '#' },
-      { title: '???', desc: 'Telegram Bot', status: 'locked', link: '#' },
-      { title: '???', desc: 'QR Manager', status: 'locked', link: '#' },
+      { 
+        title: 'Safe QR Scanner', 
+        desc: 'QR Manager', 
+        status: 'building', 
+        link: 'https://secure-qr-scanner.vercel.app/', 
+        githubLink: 'https://github.com/marabunta-labs/safe-qr-scanner' 
+      },
+      { title: '???', desc: 'Telegram Bot', status: 'building', link: '#' },
+      { title: '???', desc: 'Music Generator', status: 'locked', link: '#' },
       { title: '???', desc: 'Creative messaging', status: 'locked', link: '#' },
       { title: '???', desc: 'Maps web app', status: 'locked', link: '#' },
       { title: '???', desc: 'Web Game', status: 'locked', link: '#' },
