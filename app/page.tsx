@@ -177,7 +177,7 @@ const content = {
         title: 'CumplePing',
         desc: 'Telegram bot for birthday reminders.',
         status: 'launched',
-        link: '#',
+        link: 'https://t.me/OfficialCumplepingbot',
         githubLink: 'https://github.com/marabunta-labs/cumpleping'
       },
       { title: '???', desc: 'Maps web app', status: 'locked', link: '#' },
