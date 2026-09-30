@@ -164,14 +164,14 @@ const content = {
         desc: 'Tetris board whose gaps spell your message.',
         status: 'launched',
         link: 'https://typotris.vercel.app',
-        githubLink: 'https://github.com/parodin/typotris'
+        githubLink: 'https://github.com/marabunta-labs/typotris'
       },
       {
         title: 'PlatoPlan',
         desc: 'Meal planner with smart shopping lists.',
         status: 'launched',
-        link: '#',
-        githubLink: 'https://github.com/parodin/platoplan'
+        link: 'https://plato-plan.vercel.app/',
+        githubLink: 'https://github.com/marabunta-labs/platoplan'
       },
       {
         title: 'CumplePing',
