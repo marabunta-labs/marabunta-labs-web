@@ -155,13 +155,31 @@ const content = {
       { 
         title: 'Safe QR Scanner', 
         desc: 'QR Manager', 
-        status: 'building', 
+        status: 'launched', 
         link: 'https://secure-qr-scanner.vercel.app/', 
         githubLink: 'https://github.com/marabunta-labs/safe-qr-scanner' 
       },
-      { title: '???', desc: 'Telegram Bot', status: 'building', link: '#' },
-      { title: '???', desc: 'Music Generator', status: 'locked', link: '#' },
-      { title: '???', desc: 'Creative messaging', status: 'locked', link: '#' },
+      {
+        title: 'Typotris',
+        desc: 'Tetris board whose gaps spell your message.',
+        status: 'launched',
+        link: 'https://typotris.vercel.app',
+        githubLink: 'https://github.com/parodin/typotris'
+      },
+      {
+        title: 'PlatoPlan',
+        desc: 'Meal planner with smart shopping lists.',
+        status: 'launched',
+        link: '#',
+        githubLink: 'https://github.com/parodin/platoplan'
+      },
+      {
+        title: 'CumplePing',
+        desc: 'Telegram bot for birthday reminders.',
+        status: 'launched',
+        link: '#',
+        githubLink: 'https://github.com/marabunta-labs/cumpleping'
+      },
       { title: '???', desc: 'Maps web app', status: 'locked', link: '#' },
       { title: '???', desc: 'Web Game', status: 'locked', link: '#' },
       { title: '???', desc: 'Grand Finale', status: 'locked', link: '#' },
