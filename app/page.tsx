@@ -80,10 +80,34 @@ const content = {
         link: 'https://secure-qr-scanner.vercel.app/',
         githubLink: 'https://github.com/marabunta-labs/safe-qr-scanner'
       },
-      { title: '???', desc: 'Bot de Telegram', status: 'building', link: '#' },
-      { title: '???', desc: 'Generador de Música', status: 'locked', link: '#' },
-      { title: '???', desc: 'Herramienta de mensajería creativa', status: 'locked', link: '#' },
-      { title: '???', desc: 'Aplicación web de mapas', status: 'locked', link: '#' },
+      {
+        title: 'Typotris',
+        desc: 'Juego tipo Tetris: los huecos forman tu mensaje.',
+        status: 'launched',
+        link: 'https://typotris.vercel.app',
+        githubLink: 'https://github.com/marabunta-labs/typotris'
+      },
+      {
+        title: 'PlatoPlan',
+        desc: 'Planificador de comidas con listas de compra inteligentes.',
+        status: 'launched',
+        link: 'https://plato-plan.vercel.app/',
+        githubLink: 'https://github.com/marabunta-labs/platoplan'
+      },
+      {
+        title: 'CumplePing',
+        desc: 'Bot de Telegram para recordatorios de cumpleaños.',
+        status: 'launched',
+        link: 'https://t.me/OfficialCumplepingbot',
+        githubLink: 'https://github.com/marabunta-labs/cumpleping'
+      },
+      {
+        title: 'Face Brawl',
+        desc: 'Juego de lucha en el navegador: convierte tu cara en pixel art y pelea.',
+        status: 'launched',
+        link: 'https://face-brawl.vercel.app/',
+        githubLink: 'https://github.com/marabunta-labs/face-brawl'
+      },
       { title: '???', desc: 'Juego Web', status: 'locked', link: '#' },
       { title: '???', desc: 'Grand Finale', status: 'locked', link: '#' },
     ]
@@ -180,7 +204,13 @@ const content = {
         link: 'https://t.me/OfficialCumplepingbot',
         githubLink: 'https://github.com/marabunta-labs/cumpleping'
       },
-      { title: '???', desc: 'Maps web app', status: 'locked', link: '#' },
+      {
+        title: 'Face Brawl',
+        desc: 'Browser fighting game where your photo becomes a pixel-art fighter.',
+        status: 'launched',
+        link: 'https://face-brawl.vercel.app/',
+        githubLink: 'https://github.com/marabunta-labs/face-brawl'
+      },
       { title: '???', desc: 'Web Game', status: 'locked', link: '#' },
       { title: '???', desc: 'Grand Finale', status: 'locked', link: '#' },
     ]
